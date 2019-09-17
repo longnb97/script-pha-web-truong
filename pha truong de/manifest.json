@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Lười - BLong",
+  "version": "0.1.0",
+   "browser_action": {
+    "default_icon": "bomb.png",
+    "default_popup": "popup.html"
+  },
+  "description": "Tự động đăng ký mở lớp NV trên trang: http://daotao.nuce.edu.vn:8082 ",
+ 
+  "content_scripts": [{
+    "css":["styles.css"],
+    "js": ["script.js"],
+    "matches": ["http://daotao.nuce.edu.vn:8082/DangKyMonHoc.aspx*"]
+  }]
+ 
+}
