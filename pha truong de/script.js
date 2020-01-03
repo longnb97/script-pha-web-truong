@@ -4,7 +4,7 @@ let arrList = [
     401703, 461736, 461804, 471707, 471717,
     451752, 531753, 531713, 461703, 461709,
     451750, 531734, 461810, 401808, 401712,
-    401702, "TOR02"
+    401702, 531735, "TOR02"
 ];// them ma mon hoc vao day
 
 let index = parseInt(localStorage.getItem('index'));
